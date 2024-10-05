@@ -71,4 +71,9 @@ a {
 
 .contrast p {
     color: var(--primary-color);
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
 }
