@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+header img {
+    width: 250px;
+}
+
 .hero div {
     position: relative;
 }
@@ -76,4 +80,9 @@ a {
 
 h2 {
     font-size: 2rem;
+}
+
+footer img {
+    width: 20px;
+    height: auto;
 }
