@@ -55,6 +55,11 @@ p {
     color: var(--secondary-color);
 }
 
+ul {
+    font-family: 'Archivo', sans-serif;
+    color: var(--secondary-color);
+}
+
 a {
     text-decoration: none;
 }
