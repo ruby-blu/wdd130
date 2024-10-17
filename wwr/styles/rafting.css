@@ -170,12 +170,13 @@ h2 {
     color: var(--primary-color);
 }
 
-.contact iframe {
+iframe {
     grid-column: 2 / 3;
     height: 20rem;
     width: 40rem;
     justify-items: center;
     padding: 1rem;
+    border: 0;
 }
 
 .team {
