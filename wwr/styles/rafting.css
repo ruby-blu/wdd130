@@ -135,8 +135,13 @@ a {
     flex-basis: 100%;
 }
 
-.contrast figure, figcaption {
+.contrast figure{
     color: var(--primary-color);
+}
+
+.contrast figcaption {
+    color: var(--primary-color);
+    text-align: center;
 }
 
 .contrast img{
