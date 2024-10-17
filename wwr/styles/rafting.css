@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent1-color);
 }
 
-p {
+p, form{
     font-family: 'Archivo', sans-serif;
     color: var(--secondary-color);
 }
@@ -109,6 +109,7 @@ a {
 
 .history h2 {
     grid-column: 1 / 6;
+    font-size: 3em;
 }
 
 .history img {
@@ -131,6 +132,7 @@ a {
     color: var(--primary-color);
     grid-column: 1 / 6;
     justify-self: center;
+    font-size: 3em;
 }
 
 .contrast figure{
@@ -148,7 +150,123 @@ h2 {
     font-size: 2rem;
 }
 
-.footer{
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    background-color: var(--secondary-color);
+}
+
+.contact article {
+    grid-column: 1 / 2;
+}
+
+.contact article h1 {
+    font-size: 3em;
+    color: var(--primary-color);
+}
+
+.contact article p {
+    color: var(--primary-color);
+}
+
+.contact iframe {
+    grid-column: 2 / 3;
+    height: 20rem;
+    width: 40rem;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.team h1{
+    grid-column: 1 / 6;
+    font-size: 3em;
+}
+
+.team img {
+    width: 20rem;
+    grid-column: auto;
+}
+
+.chat p {
+    color: var(--primary-color);
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    display: grid;
+    color: var(--primary-color);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    width: 200px;
+    justify-self: center;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.chat h1 {
+    font-size: 3em;
+    text-align: center;
+    color: var(--secondary-color)
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 580px;
+}
+
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
