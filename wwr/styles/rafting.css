@@ -87,8 +87,8 @@ a {
     position: absolute;
     background-color: #F4F3EECC;
     top: 7rem;
-    left: 0;
-    right: 0;
+    left: 1rem;
+    right: 1rem;
     padding: 10px;
     color: var(--secondary-color);
 }
