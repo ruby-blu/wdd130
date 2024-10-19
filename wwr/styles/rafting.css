@@ -63,12 +63,11 @@ a {
     text-decoration: none;
 }
 
-.hero div {
+.hero {
     position: relative;
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
 }
@@ -77,27 +76,26 @@ a {
     position: absolute;
     color: var(--primary-color);
     background-color: #19381FCC;
-    top: 50%;
-    width: 97.5%;
+    top: 1rem;
     text-align: center;
-    font-size: 8rem;
     padding: 10px;
+    left: 0;
+    right: 0;
 }
 
 .hero article {
     position: absolute;
     background-color: #F4F3EECC;
-    top: 100%;
-    width: 85%;
-    left: 6%;
-    padding: 20px;
+    top: 7rem;
+    left: 0;
+    right: 0;
+    padding: 10px;
     color: var(--secondary-color);
-    font-size: 1rem;
 }
 
 .hero article img {
     float: right;
-    width: 40%;
+    width: 200px;
 }   
 
 .history {
@@ -109,7 +107,6 @@ a {
 
 .history h2 {
     grid-column: 1 / 6;
-    font-size: 3em;
 }
 
 .history img {
@@ -131,7 +128,6 @@ a {
 .contrast h2 {
     color: var(--primary-color);
     text-align: center;
-    font-size: 3em;
     flex-basis: 100%;
 }
 
@@ -151,10 +147,6 @@ a {
     width: auto;
 }
 
-h2 {
-    font-size: 2rem;
-}
-
 .contact {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -167,7 +159,6 @@ h2 {
 }
 
 .contact article h1 {
-    font-size: 3em;
     color: var(--primary-color);
 }
 
@@ -193,7 +184,6 @@ iframe {
 
 .team h1{
     grid-column: 1 / 6;
-    font-size: 3em;
 }
 
 .team img {
@@ -258,7 +248,6 @@ button:hover {
 }
 
 .chat h1 {
-    font-size: 3em;
     text-align: center;
     color: var(--secondary-color)
 }
