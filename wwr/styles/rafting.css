@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent1-color);
 }
 
-p, form, nav, figcaption {
+p, form, nav, figcaption, div {
     font-family: 'Archivo', sans-serif;
     color: var(--secondary-color);
 }
@@ -98,6 +98,43 @@ a {
     width: 200px;
 }   
 
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner h1{
+    color: var(--secondary-color);
+}
+
+.banner article {
+    position: absolute;
+    top: 4rem;
+    left: 0rem;
+    right: 0rem;
+    padding: 10px 10px 30px 10px;
+    color: var(--secondary-color);
+    background-color: #F4F3EECC;
+    text-align: center;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
 .history {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
@@ -131,7 +168,7 @@ a {
     flex-basis: 100%;
 }
 
-.contrast figure{
+.contrast figure {
     color: var(--primary-color);
 }
 
@@ -222,6 +259,7 @@ legend {
 label {
     text-align: right;
     padding-right: 1rem;
+    color: var(--primary-color);
 }
 
 input[type="checkbox"] {
@@ -281,3 +319,136 @@ textarea {
     padding: 0.25rem;
 }
 
+.trips {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 1rem 9rem 1rem;
+}
+
+.trip_info {
+    position: relative;
+    flex: 1;
+    margin: 10px;
+}
+
+.trip_info img {
+    width: 20rem;
+    height: auto;
+    background-color: var(--accent1-color);
+    padding: 15px
+}
+
+.description {
+    position: absolute;
+    top: 8rem;
+    left: 9rem; 
+    background-color: var(--secondary-color);
+    padding: 10px;
+    color: var(--primary-color);
+}
+
+.description p {
+    color: var(--primary-color);
+    margin: 0; 
+}
+
+.description h2 {
+    color: var(--primary-color);
+    margin: 0; 
+}
+
+.adventures {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+
+.adventures h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.adventures h3 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.adventures p {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.home {
+    position: relative;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+}
+
+.home h1{
+    position: absolute;
+    color: var(--primary-color);
+    top: 20rem;
+    left: 0;
+    right: 0;
+    background-color: #19381FCC;
+    text-align: center;
+    padding: 20px;
+}
+
+.site_info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.site_info section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.site_info img {
+    width: 20rem;
+    height: auto;
+    margin: 10px;
+}
+
+.site_info p {
+    width: 20rem;
+    height: auto;
+    text-align: center;
+    margin: 1px;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #19381F;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.schedule h2 {
+    color: var(--primary-color)
+}
+
+.schedule a {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.subscribe {
+    width: 400px;
+}
